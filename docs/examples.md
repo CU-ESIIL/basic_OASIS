@@ -1,15 +1,15 @@
 # UI Examples
 
-This page contains small, copyable patterns you can reuse across the site.
+This page contains small, copyable patterns that are compatible with a standard MkDocs + Material setup.
 
 ## Hoverable button
 
 Use this for a small call-to-action with a subtle hover effect.
 
-<a class="md-button oasis-hover-button" href="#">Example hover button</a>
+[Back to Home](index.md){ .md-button .oasis-hover-button }
 
-```html
-<a class="md-button oasis-hover-button" href="#">Example hover button</a>
+```md
+[Back to Home](index.md){ .md-button .oasis-hover-button }
 ```
 
 ## Responsive iframe embed
@@ -18,7 +18,7 @@ Use this wrapper to keep embedded content responsive.
 
 <div class="oasis-embed">
   <iframe
-    title="Example map embed"
+    title="OpenStreetMap example embed"
     src="https://www.openstreetmap.org/export/embed.html?bbox=-105.3%2C39.9%2C-104.9%2C40.1&amp;layer=mapnik"
     loading="lazy"
     allowfullscreen>
@@ -28,8 +28,8 @@ Use this wrapper to keep embedded content responsive.
 ```html
 <div class="oasis-embed">
   <iframe
-    title="Example embed"
-    src="https://example.com"
+    title="OpenStreetMap example embed"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-105.3%2C39.9%2C-104.9%2C40.1&amp;layer=mapnik"
     loading="lazy"
     allowfullscreen>
   </iframe>

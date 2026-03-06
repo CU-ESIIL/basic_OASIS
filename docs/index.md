@@ -1,31 +1,31 @@
 # basic_OASIS
 
-Welcome to `basic_OASIS`, a lightweight documentation starter built with MkDocs + Material. Use this as a clean baseline for project notes, quick guides, and student-facing documentation.
+`basic_OASIS` is a lightweight MkDocs + Material starter for clear project documentation. It is designed to stay minimal, readable, and easy to extend.
 
-[Get Started](examples.md){ .md-button .md-button--primary }
+[Explore Examples](examples.md){ .md-button .md-button--primary }
 [View Repository](https://github.com/CU-ESIIL/basic_OASIS){ .md-button }
 
 <div class="grid cards" markdown>
 
-- :material-code-tags: **Code**
+- **Code**
 
   ---
 
-  Keep setup steps, scripts, and reproducible snippets in one place.
+  Capture setup steps, scripts, and reproducible snippets in one place.
 
-- :material-database: **Data**
-
-  ---
-
-  Share data access notes, schemas, and provenance details clearly.
-
-- :material-file-document-outline: **Docs**
+- **Data**
 
   ---
 
-  Build concise guides that are easy to maintain and extend over time.
+  Document data access, formats, and provenance so work stays transparent.
+
+- **Docs**
+
+  ---
+
+  Write concise guides that future contributors can quickly understand.
 
 </div>
 
 !!! note "Template-first by design"
-    This site is intentionally minimal. Treat it as a starter template and extend only what your project needs.
+    This site is intentionally minimal. Start simple, then extend only what your project needs.
