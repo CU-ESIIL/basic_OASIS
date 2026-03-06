@@ -11,7 +11,14 @@ nav:
       - Home: index.md
 
 theme:
-  name: mkdocs
+  name: material
+  logo: assets/esiil_content/esiil_oasis_logo.png
+  favicon: assets/esiil_content/favicon.ico
+  custom_dir: docs/overrides
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
 
 extra_css:
   - stylesheets/extra.css
