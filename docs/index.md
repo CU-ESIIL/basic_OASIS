@@ -1,19 +1,31 @@
 # basic_OASIS
 
-<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/basic_OASIS/edit/main/docs/index.md" title="Edit this page">✏️ Edit this page</a></p>
+Welcome to `basic_OASIS`, a lightweight documentation starter built with MkDocs + Material. Use this as a clean baseline for project notes, quick guides, and student-facing documentation.
 
-![Project hero image](assets/hero.jpg)
+[Get Started](examples.md){ .md-button .md-button--primary }
+[View Repository](https://github.com/CU-ESIIL/basic_OASIS){ .md-button }
 
-Welcome to the minimal project website.
+<div class="grid cards" markdown>
 
-## What stays
+- :material-code-tags: **Code**
 
-- A clean header and styling.
-- A sidebar for site navigation.
-- Browser-based editing through the GitHub edit link.
+  ---
 
-## Quick edit guide
+  Keep setup steps, scripts, and reproducible snippets in one place.
 
-1. Open `docs/index.md`.
-2. Click the ✏️ icon (or use the link above).
-3. Commit your changes.
+- :material-database: **Data**
+
+  ---
+
+  Share data access notes, schemas, and provenance details clearly.
+
+- :material-file-document-outline: **Docs**
+
+  ---
+
+  Build concise guides that are easy to maintain and extend over time.
+
+</div>
+
+!!! note "Template-first by design"
+    This site is intentionally minimal. Treat it as a starter template and extend only what your project needs.
