@@ -9,6 +9,7 @@ edit_uri: "edit/main/docs/"
 nav:
   - Site:
       - Home: index.md
+      - Examples: examples.md
 
 theme:
   name: material
@@ -19,6 +20,15 @@ theme:
     - navigation.sections
     - navigation.top
     - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_css:
   - stylesheets/extra.css
